@@ -46,3 +46,15 @@ class Test_Login():
 
 if __name__ == '__main__':
     pytest.main()
+
+
+'''
+python -m pytest 
+{ Run all test cases persent in the folder }
+
+python -m pytest --html=reports/report1.html
+{only for html+css report}
+
+python -m pytest --html=reports/report1.html --self-contained-html
+{only for html reports - without css}
+'''
